@@ -15,7 +15,6 @@
 	<div class="w3-bar w3-white w3-card" id="mNavbar">
 		<a href="index.html#" class="w3-bar-item w3-button w3-wide">Vincent Schmandt</a>
 		<div class="w3-right w3-hide-small">
-			<a href="index.html#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
 			<a href="index.html#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
 			<a href="index.html#contact" class="w3-bar-item w3-button"><i class="fa fa-address-book"></i> CONTACT</a>
 		</div>
@@ -28,7 +27,6 @@
 <!-- Sidebar on small screens -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mSidebar">
 	<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-	<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
 	<a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
 	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
@@ -67,5 +65,28 @@
 		<a href="privacy.html" class="link">Privacy Policy</a>
 	</div>
 </footer>
+<script>
+	function scrollUp() {
+		window.scrollTo(0, 0);
+	}
 
+	function openGithub() {
+		var win = window.open("https://www.github.com/VincentsCode", '_blank');
+		win.focus();
+	}
+
+	var sidebar = document.getElementById("mSidebar");
+	function w3_open() {
+	    if (sidebar.style.display === 'block') {
+	        sidebar.style.display = 'none';
+	    } else {
+	        sidebar.style.display = 'block';
+	    }
+	}
+
+	function w3_close() {
+	    sidebar.style.display = "none";
+	}
+</script>
 </body>
+</html>
