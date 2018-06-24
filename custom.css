@@ -254,7 +254,9 @@ body, html {
 }
 
 @media (max-width:1280px) {
-	#work {
+	.about-text {
+		margin-left: 0px!important;
+		padding:48px;
 	}
 	.wihd-container {
 		width: 100%!important;
