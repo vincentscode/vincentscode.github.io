@@ -26,8 +26,8 @@
 </div>
 
 <!-- Sidebar on small screens -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mSidebar">
-	<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-animate-left-back w3-hide-medium w3-hide-large" style="display:none" id="mSidebar">
+	<p></p>
 	<a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
 	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
@@ -53,7 +53,7 @@
 		<div class="w3-container w3-card w3-white wihd-card" id="wihd_div1" style="margin: 1%; width: 29%; padding-bottom: 70px; float:left; height: 85%;">
 			<div class="wihd-content" style="width: 80%; margin: auto; padding: 10px; height: 100%">
 				<h4>THE SHOPPING-ROBOT</h4>
-				<p>The conecept of the Shopping-Robot was to build a robot, which follows you, while you are walking through the streets or the shopping mall, so you could easily throw your purchases into an integrated compartment.<br>
+				<p>The concept of the Shopping-Robot was to build a robot which follows you while you are walking through the streets or the shopping mall, so you could easily throw your purchases into an integrated compartment.<br>
 				<img src="images/wihd1.png" style="width:85%; padding-bottom: 10px; padding-top: 5px" class="w3-grayscale-min" /><br>
 				The idea was implemented using LEGO as a mechanical basis and Java/C++ as a software-environment. To track the users movement, a second Generation Microsoft Kinect Sensor was used.
 				</p>
@@ -66,7 +66,7 @@
 				<h4>THE HOMEWORK-BOT (WIP)</h4>
 				<img src="images/wihd2.png" style="width:85%; padding-top: 10px" />
 				<p>The Homework-Bot is basically an AI-Server which you can send a picture of some kind of homework to (currently only math is supported) and it will solve the task and send it back to you. All of that is done by using neural nets to understand the task and the wolframalpha-api to solve equations if needed. <br>
-				At the moment the project is still in really early stages, since its really hard to get enough math-tasks with solutions, to train a neural network.</p>
+				At the moment the project is still in really early stages, since its really hard to get enough math-tasks with solutions to train a neural network.</p>
 			</div>
 			<button class="w3-button w3-light-grey w3-block" style="width:80%; margin: auto;" onclick="openWebsite('https://github.com/VincentsCode/Einkaufsroboter')"><a class="fa fa-github"></a> View on GitHub</button>
 		</div>
@@ -74,7 +74,7 @@
 		<div class="w3-container w3-card w3-white wihd-card" id="wihd_div3" style="position:center; margin: 1%; width: 29%; padding-bottom: 70px; float:left; height: 85%;">
 			<div class="wihd-content" style="width: 80%; margin: auto; padding: 10px; height: 100%">
 				<h4>SOME ANDROID-APPS</h4>
-				<p>Will write this in the future.... 
+				<p>Will write this in the future...
 				</p>
 			</div>
 			<button class="w3-button w3-light-grey w3-block" style="width:80%; margin: auto;" onclick="openWebsite('https://github.com/VincentsCode/Einkaufsroboter')"><a class="fa fa-github"></a> View on GitHub</button>
@@ -91,12 +91,9 @@
 	</div>
 </div>
 
+<a onclick="scrollUp()" href="#" class="w3-button w3-dark-grey w3-right" style="margin-right: 30px; margin-top: -80px;" >To the top<i class="fa fa-arrow-up w3-margin-left"></i></a>
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-	<a onclick="scrollUp()" href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-	<div class="w3-xlarge w3-section">
-		<i class="fa fa-github w3-hover-opacity" onclick="openWebsite('https://www.github.com/VincentsCode')()"></i>
-	</div>
+<footer class="w3-center w3-black w3-padding-32">
 	<div class="w3-text-grey w3-center">
 		<a href="impressum.html" class="link" style="padding-left: 38px">Impressum</a>
 		<a href="privacy.html" class="link">Privacy Policy</a>
@@ -124,10 +121,14 @@
 	        sidebar.style.display = 'block';
 	    }
 	}
-
-	function w3_close() {
-	    sidebar.style.display = "none";
-	}
+	
+	$(document).mouseup(function(e) {
+		var container = $("#mSidebar");
+		// if the target of the click isn't the container nor a descendant of the container
+		if (!container.is(e.target) && container.has(e.target).length === 0) {
+		   sidebar.style.display = "none";
+		}
+	});
 
 	// Listeners
 	window.onresize = matchScreensize;
