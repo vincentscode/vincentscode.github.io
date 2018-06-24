@@ -252,3 +252,53 @@ body, html {
 	padding: 16px;
 	text-decoration: none;
 }
+
+@media (max-width:1280px) {
+	#work {
+	}
+	.wihd-container {
+		width: 100%!important;
+	}
+	.wihd-header {
+		margin-top: -40px;
+		margin-bottom: 0px
+		top: 0;
+	}
+	.wihd-card {
+		width:100%!important;
+		margin-top: -10px!important;
+		margin-bottom: 60px!important;
+	}
+	.wihd-content {
+		width: 98%!important;
+		padding: 0!important;
+	}
+}
+
+@media (max-width:1160px) {
+	.about-text {
+		max-width: 50%!important;
+	}
+}
+
+@media (max-width:600px) {
+	.about-text {
+		max-width: 80%!important;
+	}
+	#contact-me {
+		width: 80%!important;
+	}
+}
+
+@media (max-width:500px) {
+	#work {
+		padding: 10px!important;
+		padding-top: 70px!important;
+	}
+}
+
+@media (max-width:360px) {
+	.about-text {
+		max-width: 99%!important;
+	}
+}
