@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/vincentscode
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vincentscode.github.io
+  * I am vincentscode (https://keybase.io/vincentscode) on keybase.
+  * I have a public key with fingerprint AB9B 21C1 737A 7380 9BA6  D8ED FA5B 5F9C 571C 0669
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120502308e7d2317932fe689a7b33cd07662f962006ff057af18773b5d169fb85870a",
+      "fingerprint": "ab9b21c1737a73809ba6d8edfa5b5f9c571c0669",
+      "host": "keybase.io",
+      "key_id": "fa5b5f9c571c0669",
+      "kid": "0101172aa2534dc851aa9f237085e39e85cad94f9dd53b792e2da0a4e9bdfd4c468c0a",
+      "uid": "88f57ad541352d70581374ff329aed19",
+      "username": "vincentscode"
+    },
+    "service": {
+      "hostname": "vincentscode.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1566064332,
+  "expire_in": 157680000,
+  "prev": "2228bdfed86cfc060f4b8324af5d32e730bc67f3a5ba2f7ad36261c5c96355bd",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMN3AnicbZJ/UBRlGMcPPFBO9BLGxJGgFmNCL9rdd3ffXRwsGY+CIZ0aSwq9893d
+d4+F4+64WwgEhBMbR9BqrMDwjIiGyUig+NUo1hBooIa/JqzAfgyc5ejY2DjaoDjt
+Uf7n+8877/t+n8/zfL/zDi+aZzCFzeTZA5vjI9Ww04NtJYatuWvPVBCiWy4n0iqI
+Qjy3YaeMfZq9UJWJNIKkaJIlaUDyGMo0oKAAaAVzvICgCIAkk5DjaEXgaJLkFIVk
+IVIoHkIgsjLFCYrIszwkEWEhFNXlwF6PV3VpOhaJgkhTEgUBRBDwpCAiTuaxrCBW
+ZBVBYiElkRwn6IX5bl+oQh9ORD6cqrr1O/1gnxvvIfoHc5MUBWmEaBYwssSzFEKC
+QgNI8iwGAuZZCckCowiyzAIRCjSmZUQiBguirMiMxHC8NDd3yRyO5xXdmswyFGBp
+GZIsTwHIKAqgBYRlKtS3xIe9LlSEdXWp6pKwS/NJbhkTVRZCfylVJRwKN+TmIapU
+h6rll4j/ufN43Zpbcjt1Tb6meXxpIYZW7gkVvYFF+/84u6i6ZD1VvaIUe32q20Wk
+UbpS0tQQn2I5juQYAGgLgcs8qhfb1ZCChRxP6ivUB5fqSJqmed00lnlOUvQUSYUR
+eUAzSGFlQGMISFHioAL0qBGt6CkAjuYoiZUEDrCsKBMhg8Uut87WoRpy6Eyf6nAh
+rcSr2/92cIvREGYyREaEh76bwRT1yINP+I5kvk+9SsbM3rtS4U4wLshZ030qbiJs
+qrXXenXbrugdh4p+VUajz9pijz+f3HBt0fHCBPeNrvMtE69FrBq62N5VmhFeczLn
+9cMp+y3BmEpzR5MzY6Tv0aFt9xHa190WOcJszPq4ceDG7PDnLdcav+/b3c86zFfS
+I3PuRs53gVWirUcMlq1Z8fQgk3Jp9/CRyg2fpjctK1sYEXSeDZhvVv+IP2K+9Asn
+yxJgd/0WU9FfqH1H5Z67OccuF5tyx9IOxo9pi5N/mXQmBfwLcv1fHDEfWL+5+a3J
+E1fb8mbwk8MDSdkpdUYRnu6c1n5blhlvTlyd5wrW8nc8SYkvjeRWbvgz0Nqzva6z
+Dqq3xemVGeM/ZNVXF9XcCms4nGjJ6cl+78ILGx+7lFye8s+7mz4hCs+Nxc5EuJZ+
+FUg7MND83OVN4MSSXGKq2pxSZZ3d+v7o7eC68NToKOOxx+v27kr/W401TrN5GTHh
+58TatrUrpvxdRMu8ROdFW81QWWvMzYMffB1n6Nz+2Wh1QZb/wsy40Tp1J/uVHttO
+uj1TiPrm9976jnsa2VhsmG2xEAW2YHQD/OPnkZ/2BOopInbn0XDzy8v3rbR6O5pN
+wB+/7vzY0luzh3oXWucvnqiaGW+dmlzden206c3kZ595ey8++uL+2OtLevsHPsyP
+++6Uo8BzhsquZfzLn+rvtmX2WZ/4F21yuR4=
+=JFld
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vincentscode
+
+==================================================================
