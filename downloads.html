@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Vincent Schmandt</title>
 		<meta charset="UTF-8">
@@ -29,9 +29,9 @@
 <!-- Sidebar on small screens -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-animate-left-back w3-hide-medium w3-hide-large" style="display:none" id="mSidebar">
 	<p></p>
-	<a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+	<a href="/index.html#work" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
 	<a href="/downloads.html" onclick="w3_close()" class="w3-bar-item w3-button">DOWNLOADS</a>
-	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+	<a href="/index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
 <!-- Download Section -->
@@ -69,7 +69,7 @@
 	}
 
 	// Sidebar
-	var sidebar = document.getElementById("mSidebar");
+	let sidebar = document.getElementById("mSidebar");
 	function w3_open() {
 	    if (sidebar.style.display === 'block') {
 	        sidebar.style.display = 'none';
@@ -79,7 +79,7 @@
 	}
 	
 	$(document).mouseup(function(e) {
-		var container = $("#mSidebar");
+		let container = $("#mSidebar");
 		// if the target of the click isn't the container nor a descendant of the container
 		if (!container.is(e.target) && container.has(e.target).length === 0) {
 		   sidebar.style.display = "none";
@@ -87,14 +87,14 @@
 	});
 
 	// Listeners
-	window.onresize = matchScreensize;
+	window.onresize = matchScreenSize;
 	$(document).ready(function() {
-		matchScreensize()
+		matchScreenSize()
 	});
-	window.onload = matchScreensize;
+	window.onload = matchScreenSize;
 
 	// Resize functions
-	function matchScreensize() {
+	function matchScreenSize() {
 		$(".wihd-card").each(function() {
 			$(this).height("auto");
 		});
