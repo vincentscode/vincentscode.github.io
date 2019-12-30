@@ -1,0 +1,141 @@
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	src: url('Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	src: url('Lato-Bold.ttf') format('truetype');
+}
+
+.sprite {
+	background: url(sprite.png) no-repeat 0px 0px;
+	background-size: 180px 140px
+}
+
+.map {
+	width: 160px;
+	height: 80px;
+	background-position: 0px -60px;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	background-position: -90px 0px;
+}
+
+.email {
+	width: 30px;
+	height: 30px;
+	background-position: -90px -30px;
+}
+
+
+.twitter {
+	width: 30px;
+	height: 30px;
+	background-position: -60px 0px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	min-width: 320px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 11pt;
+	background: #FFFFFF;
+	color: #333333;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 360px;
+	margin: auto 6.25%;
+	padding: 30px 0;
+}
+
+.top:after,
+.top:before {
+	content: " ";
+	display: table;
+}
+
+.top:after {
+	clear: both;
+}
+
+.map {
+	float: right;
+	position: relative;
+}
+
+#location {
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	left: 77px;
+	top: 24px;
+	border-radius: 3px;
+	background-color: #0080ee;
+}
+
+.headline {
+	font-weight: 700;
+	font-size: 1.8em;
+	line-height: 1.1em;
+}
+
+.subheadline {
+	font-weight: 300;
+	font-size: 1.12em;
+	line-height: 1.4em;
+	margin: 6px 0px 22px 0px;
+	color: #868686;
+}
+
+.links {
+	margin: 0px 0px 45px 0px;
+}
+
+.links a {
+	margin-right: 4px;
+	display: inline-block;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.footnote {
+	font-size: .95em;
+	color: #868686;
+	text-decoration: none;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	background: url(https://avatars0.githubusercontent.com/u/26576880?s=60);
+	border-radius: 30px;
+}

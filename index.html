@@ -1,163 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Vincent Schmandt</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-		<link rel="stylesheet" href="custom.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	</head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Vincent Schmandt</title>
+	<meta name="description" content="Vincent Schmandt">
+	<meta name="keywords" content="Vincent Schmandt Software Engineer Germany">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="assets/style.css"/>
+</head>
 <body>
-
-<!-- Navbar -->
-<div class="w3-top">
-	<div class="w3-bar w3-white w3-card" id="mNavbar">
-		<a onclick="scrollUp()" href="#" class="w3-bar-item w3-button w3-wide">Vincent Schmandt</a>
-		<div class="w3-right w3-hide-small">
-			<a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
-			<a href="/downloads.html" class="w3-bar-item w3-button"><i class="fa fa-download"></i> DOWNLOADS</a>
-			<a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-address-book"></i> CONTACT</a>
-		</div>
-		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-			<i class="fa fa-bars"></i>
-		</a>
-	</div>
-</div>
-
-<!-- Sidebar on small screens -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-animate-left-back w3-hide-medium w3-hide-large" style="display:none" id="mSidebar">
-	<p></p>
-	<a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
-	<a href="/downloads.html" onclick="w3_close()" class="w3-bar-item w3-button">DOWNLOADS</a>
-	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-</nav>
-
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-	<div class="w3-display-left w3-text-black about-text" style="margin-left:190px; max-width:30%">
-		<span class="w3-jumbo">Hi! I'm Vincent.</span><br>
-		<span class="w3-large">I'm a self-taught full-stack software and web developer.<br>
-			I love building up new software and exploring the possibilities of software development.
-		</span>
-	</div> 
-	<div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px;">
-		<i class="fa fa-github w3-hover-opacity" onclick="openWebsite('https://www.github.com/VincentsCode')()"></i>
-	</div>
-</header>
-
-<!-- Work Section -->
-<div class="w3-container w3-dark-grey" style="padding:64px; padding-top: 90px; height: auto;" id="work">
-	<div class="w3-container w3-row-padding wihd-container" style="text-align:center; margin:auto; height: 100%;">
-		<h3 class="wihd-header">WHAT I HAVE DONE SO FAR</h3><br>
-
-		<div class="w3-container w3-card w3-white wihd-card" id="wihd_div1" style="margin: 0.6%; width: 32%; padding-bottom: 70px; float:left; height: 85%;">
-			<div class="wihd-content" style="width: 80%; margin: auto; padding: 10px; height: 100%">
-				<h4>THE SHOPPING-ROBOT</h4>
-				<p>The concept of the Shopping-Robot was to build a robot which follows you while you are walking through the streets or the shopping mall, so you could easily throw your purchases into an integrated compartment.<br>
-				<img src="images/wihd1.png" style="width:85%; padding-bottom: 10px; padding-top: 5px" class="w3-grayscale-min" /><br>
-				The idea was implemented using LEGO as a mechanical basis and Java/C++ as a software-environment. To track the users movement, a second Generation Microsoft Kinect Sensor was used.
-				</p>
+	<div class="wrapper">
+		<header>
+			<div class="top">
+				<div class="avatar profile"></div>
+				<div class="sprite map">
+					<div id="location"></div>
+				</div>
 			</div>
-			<button class="w3-button w3-light-grey w3-block" style="width:80%; margin: auto;" onclick="openWebsite('https://github.com/VincentsCode/Einkaufsroboter')"><a class="fa fa-github"></a> View on GitHub</button>
+			<h1 class="headline">Vincent Schmandt</h1>
+			<h2 class="subheadline">Software Developer&nbsp;-&nbsp;Germany</h2>
+		</header>
+		<div class="links">
+			<a href="https://github.com/vincentscode" target="_blank" class="sprite github"></a>
+			<a href="mailto:vincentscode@gmail.com" target="_blank" class="sprite email"></a>
+			<a href="https://twitter.com/vincentscode" target="_blank" class="sprite twitter"></a>
 		</div>
-
-		<div class="w3-container w3-card w3-white wihd-card" id="wihd_div2" style="margin: 0.6%; width: 32%; padding-bottom: 70px; float:left; height: 85%;">
-			<div class="wihd-content" style="width: 80%; margin: auto; padding: 10px; height: 100%">
-				<h4>THE HOMEWORK-BOT (WIP)</h4>
-				<img src="images/wihd2.png" style="width:85%; padding-top: 10px" />
-				<p>The Homework-Bot is basically an AI-Server which you can send a picture of some kind of homework to (currently only math is supported) and it will solve the task and send it back to you. All of that is done by using neural nets to understand the task and the wolframalpha-api to solve equations if needed. <br>
-				At the moment the project is still in really early stages, since its really hard to get enough math-tasks with solutions to train a neural network.</p>
-			</div>
-			<button class="w3-button w3-light-grey w3-block" style="width:80%; margin: auto;" onclick="openWebsite('https://github.com/VincentsCode/Einkaufsroboter')"><a class="fa fa-github"></a> View on GitHub</button>
-		</div>
-
-		<div class="w3-container w3-card w3-white wihd-card" id="wihd_div3" style="margin: 0.6%; width: 32%; padding-bottom: 70px; float:left; height: 85%;">
-			<div class="wihd-content" style="width: 80%; margin: auto; padding: 10px; height: 100%">
-				<h4>SOME ANDROID-APPS</h4>
-				<p>Will write this in the future...
-				</p>
-			</div>
-			<button class="w3-button w3-light-grey w3-block" style="width:80%; margin: auto;" onclick="openWebsite('https://github.com/VincentsCode/Einkaufsroboter')"><a class="fa fa-github"></a> View on GitHub</button>
-		</div>
+		<footer>
+			<p class="footnote">©&nbsp;<script>document.write(new Date().getFullYear())</script>&nbsp;Vincent Schmandt&nbsp;&nbsp;-&nbsp;&nbsp;<a href="imprint.html" class="footnote">Imprint</a></p>
+		</footer>
 	</div>
-</div>
-
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey " style="padding:64px;" id="contact">
-	<div style="text-align:center; width:30%; margin:auto" id="contact-me">
-		<h3>GET IN TOUCH</h3>
-		<p>Want to work together? I’d love to hear from you.<br>
-		You can contact me via email at <a href="mailto:vincent.schmandt@gmx.de" style="text-decoration: none">vincent.schmandt@gmx.de</a>.
-	</div>
-</div>
-
-<a onclick="scrollUp()" href="#" class="w3-button w3-dark-grey w3-right" style="margin-right: 30px; margin-top: -80px;" >To the top<i class="fa fa-arrow-up w3-margin-left"></i></a>
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-32">
-	<div class="w3-text-grey w3-center">
-		<a href="impressum.html" class="link" style="padding-left: 38px">Impressum</a>
-		<a href="privacy.html" class="link">Privacy Policy</a>
-	</div>
-</footer>
-
-<script>
-	// Scroll to top
-	function scrollUp() {
-		window.scrollTo(0, 0);
-	}
-
-	// Open websites in new tab
-	function openWebsite(url) {
-		var win = window.open(url, '_blank');
-		win.focus();
-	}
-
-	// Sidebar
-	var sidebar = document.getElementById("mSidebar");
-	function w3_open() {
-	    if (sidebar.style.display === 'block') {
-	        sidebar.style.display = 'none';
-	    } else {
-	        sidebar.style.display = 'block';
-	    }
-	}
-	
-	$(document).mouseup(function(e) {
-		var container = $("#mSidebar");
-		// if the target of the click isn't the container nor a descendant of the container
-		if (!container.is(e.target) && container.has(e.target).length === 0) {
-		   sidebar.style.display = "none";
-		}
-	});
-
-	// Listeners
-	window.onresize = matchScreensize;
-	$(document).ready(function() {
-		matchScreensize()
-	});
-	window.onload = matchScreensize;
-
-	// Resize functions
-	function matchScreensize() {
-		$(".wihd-card").each(function() {
-			$(this).height("auto");
-		});
-		if (!window.matchMedia('(max-width: 1280px)').matches) {
-			var tallestBox = 0;
-			$(".wihd-card").each(function() {
-				var divHeight = $(this).height();
-
-				if (divHeight > tallestBox){
-					tallestBox = divHeight;
-				}
-			});
-			$(".wihd-card").each(function() {
-				$(this).height(tallestBox-30);
-			});
-		}
-	}
-</script>
 </body>
 </html>
