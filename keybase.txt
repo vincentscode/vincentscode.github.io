@@ -73,3 +73,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/vincentscode
 
 ==================================================================
+==================================================================
+https://keybase.io/vincentscode
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vincentscode.de
+  * I am vincentscode (https://keybase.io/vincentscode) on keybase.
+  * I have a public key ASBLEGppjjShBC1pt1qjXvEpIIxDhe1Ga-u0sRajgAR8TAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120502308e7d2317932fe689a7b33cd07662f962006ff057af18773b5d169fb85870a",
+      "host": "keybase.io",
+      "kid": "01204b106a698e34a1042d69b75aa35ef129208c4385ed466bebb4b116a380047c4c0a",
+      "uid": "88f57ad541352d70581374ff329aed19",
+      "username": "vincentscode"
+    },
+    "merkle_root": {
+      "ctime": 1577838959,
+      "hash": "ac3e54ddf1b7dbd3a880cd745b97c9e41ebda9dd6d6bb4bd2cbe394fbcd25b1e586beba7f636b2fa9acc0619374129fb8ef1c5b239a8a25691eac55473773a74",
+      "hash_meta": "a4300c47bbad3fdaef4d5bd1e62d293376ae744bc2d63b9a6d576e92f92a4782",
+      "seqno": 14036786
+    },
+    "service": {
+      "entropy": "KFRbsO00PG6lyOvxlWO8PtGV",
+      "hostname": "vincentscode.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1577838971,
+  "expire_in": 504576000,
+  "prev": "c05df463ee60a32991b02ac4f43c1a2176e4a8be7648efebbf1345da8fb19a04",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSxBqaY40oQQtabdao17xKSCMQ4XtRmvrtLEWo4AEfEwKp3BheWxvYWTESpcCIMQgwF30Y+5goymRsCrE9DwaIXbkqL52SO/rvxNF2o+xmgTEILxAbvhTYMg3sbl6cZbETt2tC5p1NV58FkxLRjtMMNwQAgHCo3NpZ8RALWe2DD5HjAOTN7C5DrYvqbsYpJenfrrr55AXoBvNd0qdCo0s/jQlkWpYy6XdFDKEjx0qAlNUfBBCRb4MrFN3C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICG5NqooOOiOoe324Qg9tbD8+JFyE0KMIV/U1H6CddcFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vincentscode
+
+==================================================================
