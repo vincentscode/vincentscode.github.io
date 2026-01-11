@@ -29,12 +29,23 @@
 	background-position: -90px 0px;
 }
 
+.linkedin {
+	width: 30px;
+	height: 30px;
+	background-position: -120px 0px;
+}
+
 .email {
 	width: 30px;
 	height: 30px;
 	background-position: -90px -30px;
 }
 
+.mastodon {
+	width: 30px;
+	height: 30px;
+	background-position: -120px -30px;
+}
 
 .twitter {
 	width: 30px;
